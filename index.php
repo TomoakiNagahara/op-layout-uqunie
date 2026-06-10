@@ -29,5 +29,8 @@ if( $config ){
 	OP()->Config(basename(__DIR__), $config);
 }
 
+//	For Cloudflare
+header("Content-Security-Policy-Report-Only: default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; connect-src 'self'; img-src 'self' data:;");
+
 //	Output HTML
 include('html.phtml');
