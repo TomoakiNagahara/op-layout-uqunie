@@ -1,0 +1,28 @@
+
+/**	op-layout-uqunie:/css/uqunie.css
+ *
+ * @created     2026-09-06
+ * @license     Apache-2.0
+ * @package     op-layout-uqunie
+ * @copyright   Tomoaki Nagahara
+ */
+
+main, h1, p {
+	_border: 1px solid black;
+	margin:  0;
+	padding: 0;
+}
+
+main {
+	padding: 1em;
+	padding-top: 0;
+	font-size: 14pt;
+}
+
+h1 {
+	font-size: 200%;
+}
+
+p {
+	margin: 1em;
+}
